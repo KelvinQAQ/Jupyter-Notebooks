@@ -28,5 +28,3 @@ plt.imshow(img_out + img_data, cmap='gray') # 绘制锐化后的图像
 plt.title('sharpened')
 
 # plt.savefig('output.png')
-
-img1 = Image.new('L', img.size)
